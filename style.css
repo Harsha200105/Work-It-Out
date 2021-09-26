@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bg.jpeg");
+    font-family: 'Girassol', 'cursive';
+
+    /* width: 10%; */
+}
+
+.left {
+    /* margin-top: 10px; */
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    padding: 2px 3px;
+    /* background: url("gym.png"); */
+    /* border-color: ; */
+
+}
+
+.mid {
+    /* margin-top: 30px; */
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+    padding: 2px 3px;
+    /* position: relative; */
+    /* border: 2px solid green; */
+    /* border-color: ; */
+}
+
+.right {
+
+    /* margin-top: -85px; */
+    position: absolute;
+    right: 35px;
+    top: 12px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    padding: 2px 3px;
+    /* border-color:; */
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.navbar li a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(65, 174, 201);
+}
+
+#logo {
+    display: inline;
+    filter: invert(1) opacity(77%);
+    width: 80px;
+    margin: auto;
+
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+ul {
+    display: inline-block;
+    padding-inline-start: 20px;
+}
+
+.btn {
+    margin: 8px;
+    width: 70px;
+    height: 35px;
+    border: 3px yellowgreen;
+    border-radius: 50px;
+    background: rgb(36, 16, 113);
+    color: rgb(21, 216, 157);
+    /* font-family: 'Girassol', cursive; */
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background: rgb(23, 70, 38);
+}
+
+.title {
+    line-height: 1px;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    color: white;
+    border: 2px solid rgb(36, 86, 161);
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin: 64px 21px;
+    padding: 13px 13px;
+    width: 50%;
+
+}
+
+.container button {
+    /* line-height: 3px; */
+    /* margin: 15px 200px; */
+    display: block;
+    margin: auto;
+    padding: 2px;
+    color: rgb(21, 216, 157);
+    background: rgb(36, 16, 113);
+    width: 70px;
+}
+
+.form-group input {
+    margin: 11px auto;
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid rgb(68, 185, 243);
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    font-family: 'Girassol', 'cursive';
+    font-size: 19px;
+}
+.container h2{
+    /* margin: 12px auto; */
+    text-align: center;
+}
+.title:hover{
+    color: red;
+    cursor: pointer;
+}
+strong {
+    font-size: larger;
+    color: aquamarine;
+}
