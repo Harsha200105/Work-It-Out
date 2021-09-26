@@ -149,5 +149,5 @@ strong {
 }
 .container img {
     justify-content: flex-start;
-    width:fit-content;
+    width: 400px;
 }
