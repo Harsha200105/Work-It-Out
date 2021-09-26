@@ -147,3 +147,7 @@ strong {
     font-size: larger;
     color: aquamarine;
 }
+.container img {
+    justify-content: flex-start;
+    width:fit-content;
+}
